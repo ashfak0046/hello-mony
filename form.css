@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: wheat;
+}
+/* Header Section */
+.header-section{
+    margin-bottom:10px;
+}
+.nav-container{
+    width: 100%;
+    height: 50px;
+    background-color: darkslategray;
+}
+.nav-container li ul{
+    display: none;
+}
+
+.nav-container li{
+    list-style: none;
+    width: 120px;
+    height: 40px;
+    background-color: darkslategray;
+    float: left;
+    margin-left: 5px;
+    line-height: 40px;
+}
+.nav-container li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.nav-container:hover li a{
+    background-color: lightyellow;
+    color: black;
+}
+.nav-container li:hover ul{
+    display: block;
+}
+/* Others Section */
+
+.img-container img{
+    width: 50%;
+    padding: 10px;
+    margin-left: 400px;
+    height: 500px;
+    border: 1px solid lightgrey;
+    background-color:lightsteelblue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.img-container:hover img{
+    box-shadow: 10px 10px 30px lightgray;
+    background-color: lightslategray;
+   
+}
+
+/* Form Section */
+.form-container{
+    border: 1px solid gray;
+    padding: 15px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    text-align:justify;
+    margin: auto;
+    width: 500px;
+    margin-bottom: 20px;
+    
+    
+    
+    
+}
+.form-container:hover{
+    box-shadow: 20px 20px 30px lightgrey;
+}
+#submit-btn{
+    background-color:lightgreen;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    border:1px solid lightgrey;
+    font-weight: bold;
+}

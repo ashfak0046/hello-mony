@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>User-Form</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="header-section">
+            <ul class="nav-container">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses<i class="far fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="#">Html</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Query</a></li>
+                <li><a href="#">Service</a>
+                <li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section>
+            <div class="img-container others">
+                <img src="img/ps9.jpg" alt="">
+            </div>
+            
+        </section>
+        <section>
+            <div class="form-container">
+                <form action="formSub.php" method="POST">
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" id="">
+                    </br>
+                    <br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname">
+                    </br>
+                    <br>
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd">
+                    <br>
+                    <br>
+                    <label>Gender:</label>
+                    <br>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <br>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                    <br>
+                    <input type="radio" id="others" name="gender">
+                    <label for="others">Others</label>
+                    <br>
+                    <br>
+                    <label for="certificate">Certificate:</label>
+                    <br>
+                    <input type="checkbox" id="psc_certificate" name="certificate" value="PSC">
+                    <label for="psc_certificate">PSC</label>
+                    <br>
+                    <input type="checkbox" id="jsc_certificate" name="certificate" value="JSC">
+                    <label for="jsc_certificate">JSC</label>
+                    <br>
+                    <input type="checkbox" id="ssc_certificate" name="certificate" value="SSC">
+                    <label for="ssc_certificate">SSC</label>
+                    <br>
+                    <input type="checkbox" id="hsc_certificate" name="certificate" value="HSC">
+                    <label for="hsc_certificate">HSC</label>
+                    <br>
+                    <br>
+                    <label for="board">Select Board:</label>
+                    <select name="board" id="board">
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Sylhet">Sylhet</option>
+                        <option value="Kulna">Kulna</option>
+                        <option value="Barisal">Barisal</option>
+                        <option value="Chittagong">Chittagong</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="dob">Date Of Birth:</label>
+                    <input type="date" name="dob" id="dob">
+                    <br>
+                    <br>
+                    <label for="pickup">Upload Picture:</label>
+                    <input type="file" id="pickup" name="pickup">
+                    <br>
+                    <br>
+                    <button id="submit-btn">Submit</button>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
